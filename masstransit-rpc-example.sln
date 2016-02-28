@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "src\Server\Server
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageContract", "src\MessageContract\MessageContract.csproj", "{B8AB3D19-87DC-47EB-9EB5-EE6D6E5CF655}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6240138B-2960-4914-AAB9-BAEC15E19ABB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{02380AF1-0922-4D79-AD9B-322D473138BA} = {6240138B-2960-4914-AAB9-BAEC15E19ABB}
+		{D1E137E3-3A8B-4399-A7B7-2E3233B7ADA5} = {6240138B-2960-4914-AAB9-BAEC15E19ABB}
+		{B8AB3D19-87DC-47EB-9EB5-EE6D6E5CF655} = {6240138B-2960-4914-AAB9-BAEC15E19ABB}
 	EndGlobalSection
 EndGlobal
